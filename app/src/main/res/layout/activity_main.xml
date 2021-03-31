@@ -14,6 +14,7 @@
         tools:layout_editor_absoluteX="0dp">
 
         <TextView
+            android:id="@+id/testField"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:background="#534378"
