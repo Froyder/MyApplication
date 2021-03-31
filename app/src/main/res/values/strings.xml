@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="test_button">Нажми меня</string>
+    <string name="hello_world">Привет-Привет! Это просто тестовый текст, здесь не на что смотреть.</string>
+    <string name="your_name">Ваше имя - </string>
 
 </resources>

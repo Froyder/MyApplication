@@ -14,9 +14,14 @@
         tools:layout_editor_absoluteX="0dp">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:id="@+id/testField"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#534378"
+            android:text="@string/hello_world"
+            android:textColor="#FBFBFB"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -27,17 +32,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:fontFamily="cursive"
-            android:hint="name"
+            android:fontFamily="casual"
+            android:hint="Сюда можно ввести имя"
             android:inputType="textPersonName"
-            android:text="Name"
-            android:textSize="42sp" />
+            android:textSize="24sp"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/test_button" />
 
         <Switch
             android:id="@+id/switch2"
