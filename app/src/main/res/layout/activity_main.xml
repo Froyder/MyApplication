@@ -48,7 +48,7 @@
             android:id="@+id/switch2"
             android:layout_width="126dp"
             android:layout_height="wrap_content"
-            android:text="Switch" />
+            android:text="Сменить цвет" />
 
         <CheckBox
             android:id="@+id/checkBox2"
