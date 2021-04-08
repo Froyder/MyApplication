@@ -49,19 +49,19 @@
             android:id="@+id/switch2"
             android:layout_width="126dp"
             android:layout_height="wrap_content"
-            android:text="Сменить цвет" />
+            android:text="@string/change_colour" />
 
         <CheckBox
             android:id="@+id/checkBox2"
             android:layout_width="274dp"
             android:layout_height="wrap_content"
-            android:text="CheckBox" />
+            android:text="@string/light_off" />
 
         <ToggleButton
             android:id="@+id/toggleButton2"
             android:layout_width="297dp"
             android:layout_height="wrap_content"
-            android:text="ToggleButton" />
+            android:text="@string/toggle" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
