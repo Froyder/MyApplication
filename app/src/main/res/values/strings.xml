@@ -3,5 +3,8 @@
     <string name="test_button">Нажми меня</string>
     <string name="hello_world">Привет-Привет! Это просто тестовый текст, здесь не на что смотреть.</string>
     <string name="your_name">Ваше имя - </string>
+    <string name="change_colour">Сменить цвет</string>
+    <string name="light_off">Выключить свет</string>
+    <string name="toggle">Такинственный переключатель</string>
 
 </resources>

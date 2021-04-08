@@ -60,12 +60,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // TODO Auto-generated method stub
-        Toast.makeText(this, item.getTitle(), Toast.LENGTH_SHORT).show();
-        return super.onOptionsItemSelected(item);
-    }
-
     public void checkBoxListener (View v) {
         if (cb.isChecked()) {
             layout.setBackgroundColor(Color.BLACK);
