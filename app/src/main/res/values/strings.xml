@@ -6,5 +6,7 @@
     <string name="change_colour">Сменить цвет</string>
     <string name="light_off">Выключить свет</string>
     <string name="toggle">Такинственный переключатель</string>
+    <string name="greeting_template_put">Введите ваше имя</string>
+    <string name="greeting_template">Ваше имя - %s</string>
 
 </resources>
