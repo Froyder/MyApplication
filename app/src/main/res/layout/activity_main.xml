@@ -19,7 +19,7 @@
             android:id="@+id/testField"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/my_dimension"
             android:background="#534378"
             android:text="@string/hello_world"
             android:textColor="#FBFBFB"
@@ -34,7 +34,7 @@
             android:id="@+id/editTextTextPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/my_dimension"
             android:ems="10"
             android:fontFamily="casual"
             android:hint="Сюда можно ввести имя"
@@ -47,14 +47,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/my_dimension"
             android:text="@string/test_button" />
 
         <Switch
             android:id="@+id/switch2"
             android:layout_width="126dp"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/my_dimension"
             android:text="@string/change_colour" />
 
         <CheckBox
@@ -62,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/my_dimension"
             android:onClick="checkBoxListener"
             android:text="@string/light_off" />
 
@@ -71,7 +71,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/my_dimension"
             android:onClick="toggleButtonListener"
             android:text="@string/toggle" />
 

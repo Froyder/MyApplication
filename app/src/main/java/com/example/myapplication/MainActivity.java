@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //setContentView(R.layout.text_layout);
 
         layout = findViewById(R.id.layout);
         Button button = findViewById(R.id.button2);
@@ -33,27 +32,21 @@ public class MainActivity extends AppCompatActivity {
         cb = findViewById(R.id.checkBox2);
         tb = findViewById(R.id.toggleButton2);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        button.setOnClickListener(v -> {
                 name = text.getText().toString();
                 if (name.equals("")) {
-                    greetingsField.setText("Введите ваше имя");
+                    greetingsField.setText(getResources().getText(R.string.greeting_template_put));
                 } else {
-                    greetingsField.setText("Ваше имя - " + name);
+                    greetingsField.setText(getResources().getString(R.string.greeting_template, name));
                 }
-            }
         });
 
-        aSwitch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        aSwitch.setOnClickListener(v -> {
                 if (aSwitch.isChecked()) {
                     greetingsField.setBackgroundColor(Color.RED);
                 } else {
                     greetingsField.setBackgroundColor(Color.GREEN);
                 }
-            }
         });
     }
 
